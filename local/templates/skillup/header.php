@@ -5,6 +5,8 @@ $oAsset = \Bitrix\Main\Page\Asset::getInstance();
 $oAsset->addCss(SITE_TEMPLATE_PATH . 'style.css');
 $aAsset->addJs('http://maxcdn.bootstrapcdn.com/bootstrap.min.js');
 
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
