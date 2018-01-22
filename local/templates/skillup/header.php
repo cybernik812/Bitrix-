@@ -1,4 +1,10 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+$oAsset = \Bitrix\Main\Page\Asset::getInstance();
+
+$oAsset->addCss(SITE_TEMPLATE_PATH . 'style.css');
+$aAsset->addJs('http://maxcdn.bootstrapcdn.com/bootstrap.min.js');
+
 <!DOCTYPE html>
 <html>
 <head>
