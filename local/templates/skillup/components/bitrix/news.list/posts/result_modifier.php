@@ -15,7 +15,7 @@ foreach  ($arResult['ITEMS'] as &$aItem) {
     $aPicture = CFile::ResizeImageGet(
         $aItem['DETAIL_PICTURE'],
         $aSizePost,
-        BX_RESIZE_EXACT);
+        BX_RESIZE_IMAGE_EXACT);
 
     $aItem['DETAIL_PICTURE']['SRC'] =$aPicture['src'];
 
